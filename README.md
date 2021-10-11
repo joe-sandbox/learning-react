@@ -21,7 +21,7 @@ npx husky install
 Crear commitlint.config.js
 ```bash
 # Indicar que usaremos ese script para el conventional commit
-module.exports = {extends: ["@commitlint/config-conventional"]};
+echo 'module.exports = {extends: ["@commitlint/config-conventional"]};' > commitlint.config.js
 ```
 
 ```bash
